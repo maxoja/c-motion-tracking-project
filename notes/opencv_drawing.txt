@@ -1,0 +1,5 @@
+[ drawing contours ]
+drawContours ( Mat drawOn , contours , id(-1 for all) , color , thickness );
+
+[ drawing rectangle ]
+rectangle ( in/output , rect , scalarColor )

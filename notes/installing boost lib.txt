@@ -1,0 +1,9 @@
+add header search path in build setting
+/usr/local/include
+
+add lib search path also
+/usr/local/lib
+
+add linker flag
+-lboost_filesystem
+-lboost_system

@@ -1,0 +1,4 @@
+[ play back speed ]
+ - waitKey ( ) // wait for a key pressed
+ - waitKey ( 1 ) // fastest
+ - waitKey ( 30 ) // wait for 30 millisecs

@@ -1,0 +1,38 @@
+[ create a data structure ]
+
+struct Fruit
+{
+    char name[20];
+    float price;
+    float size;
+};
+
+
+
+
+
+[ declare a data structure ]
+
+struct Fruit apple;
+strcpy( apple.name , "Apple" );
+apple.price = 1.25;
+apple.size = 3.5;
+
+
+
+
+
+[ rename struct Fruit to Fruit ]
+
+typedef struct Fruit
+{
+    char name[20];
+    float price;
+    float size;
+} Fruit;
+
+
+
+
+[ create array of struct with size variable ]
+Struct* structs = new Struct[size];

@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8416A61F1DD6E84A00B5055E /* control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8416A61D1DD6E84A00B5055E /* control.cpp */; };
+		8426D0491DBDAE9A00E1994B /* sub-process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8426D0471DBDAE9A00E1994B /* sub-process.cpp */; };
+		84380B231DB4AE9900002F0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84380B221DB4AE9900002F0F /* main.cpp */; };
+		84CED9B51DB89DDF00457C00 /* process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CED9B31DB89DDF00457C00 /* process.cpp */; };
+		84CED9B91DBA4AA500457C00 /* datastructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CED9B71DBA4AA500457C00 /* datastructure.cpp */; };
+		84CED9C41DBB4B3500457C00 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CED9C21DBB4B3500457C00 /* utils.cpp */; };
+		84CED9C61DBB55BE00457C00 /* backupcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CED9C51DBB55BE00457C00 /* backupcode.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84380B1D1DB4AE9900002F0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8416A61D1DD6E84A00B5055E /* control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = control.cpp; sourceTree = "<group>"; };
+		8416A61E1DD6E84A00B5055E /* control.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = control.hpp; path = "master-motion-tracking/control.hpp"; sourceTree = "<group>"; };
+		8426D0471DBDAE9A00E1994B /* sub-process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "sub-process.cpp"; sourceTree = "<group>"; };
+		8426D0481DBDAE9A00E1994B /* sub-process.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = "sub-process.hpp"; path = "master-motion-tracking/sub-process.hpp"; sourceTree = "<group>"; };
+		8426D04A1DBDB98000E1994B /* opencv_drawing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_drawing.txt; path = notes/opencv_drawing.txt; sourceTree = "<group>"; };
+		8426D04B1DBDBA6600E1994B /* opencv_video.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_video.txt; path = notes/opencv_video.txt; sourceTree = "<group>"; };
+		8426D04C1DBDBCF200E1994B /* opencv_contour.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_contour.txt; path = notes/opencv_contour.txt; sourceTree = "<group>"; };
+		8426D04D1DBDC06700E1994B /* vector.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vector.txt; path = notes/vector.txt; sourceTree = "<group>"; };
+		84380B1F1DB4AE9900002F0F /* master-motion-tracking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "master-motion-tracking"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84380B221DB4AE9900002F0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84CED9B31DB89DDF00457C00 /* process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = process.cpp; sourceTree = "<group>"; };
+		84CED9B41DB89DDF00457C00 /* process.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = process.hpp; path = "master-motion-tracking/process.hpp"; sourceTree = "<group>"; };
+		84CED9B61DB89E3100457C00 /* project note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "project note.txt"; path = "master-motion-tracking/project note.txt"; sourceTree = "<group>"; };
+		84CED9B71DBA4AA500457C00 /* datastructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datastructure.cpp; sourceTree = "<group>"; };
+		84CED9B81DBA4AA500457C00 /* datastructure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = datastructure.hpp; path = "master-motion-tracking/datastructure.hpp"; sourceTree = "<group>"; };
+		84CED9BA1DBA4B2900457C00 /* data structure.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "data structure.txt"; path = "notes/data structure.txt"; sourceTree = "<group>"; };
+		84CED9BB1DBA515D00457C00 /* proper including.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "proper including.txt"; path = "notes/proper including.txt"; sourceTree = "<group>"; };
+		84CED9BE1DBA87C700457C00 /* installing boost lib.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "installing boost lib.txt"; path = "notes/installing boost lib.txt"; sourceTree = "<group>"; };
+		84CED9C21DBB4B3500457C00 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		84CED9C31DBB4B3500457C00 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = utils.hpp; path = "master-motion-tracking/utils.hpp"; sourceTree = "<group>"; };
+		84CED9C51DBB55BE00457C00 /* backupcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backupcode.cpp; sourceTree = "<group>"; };
+		84CED9C81DBBAF3300457C00 /* opencv_functions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_functions.txt; path = notes/opencv_functions.txt; sourceTree = "<group>"; };
+		84CED9C91DBBB07800457C00 /* opencv_types.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_types.txt; path = notes/opencv_types.txt; sourceTree = "<group>"; };
+		84CED9CA1DBBB0CE00457C00 /* opencv_includes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = opencv_includes.txt; path = notes/opencv_includes.txt; sourceTree = "<group>"; };
+		84CED9CE1DBBB15E00457C00 /* boost_create directory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "boost_create directory.txt"; path = "notes/boost_create directory.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84380B1C1DB4AE9900002F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84380B161DB4AE9900002F0F = {
+			isa = PBXGroup;
+			children = (
+				84380B211DB4AE9900002F0F /* master-motion-tracking */,
+				84CED9C71DBBAE8700457C00 /* includes */,
+				84CED9BC1DBA6D6F00457C00 /* notes */,
+				84380B201DB4AE9900002F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84380B201DB4AE9900002F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84380B1F1DB4AE9900002F0F /* master-motion-tracking */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84380B211DB4AE9900002F0F /* master-motion-tracking */ = {
+			isa = PBXGroup;
+			children = (
+				84380B221DB4AE9900002F0F /* main.cpp */,
+				8416A61D1DD6E84A00B5055E /* control.cpp */,
+				84CED9B31DB89DDF00457C00 /* process.cpp */,
+				8426D0471DBDAE9A00E1994B /* sub-process.cpp */,
+				84CED9B71DBA4AA500457C00 /* datastructure.cpp */,
+				84CED9C21DBB4B3500457C00 /* utils.cpp */,
+				84CED9C51DBB55BE00457C00 /* backupcode.cpp */,
+			);
+			path = "master-motion-tracking";
+			sourceTree = "<group>";
+		};
+		84CED9BC1DBA6D6F00457C00 /* notes */ = {
+			isa = PBXGroup;
+			children = (
+				84CED9B61DB89E3100457C00 /* project note.txt */,
+				84CED9CC1DBBB11B00457C00 /* c/c++ */,
+				84CED9CB1DBBB0F100457C00 /* opencv */,
+				84CED9CD1DBBB12C00457C00 /* boost */,
+			);
+			name = notes;
+			sourceTree = "<group>";
+		};
+		84CED9C71DBBAE8700457C00 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				8416A61E1DD6E84A00B5055E /* control.hpp */,
+				84CED9B41DB89DDF00457C00 /* process.hpp */,
+				8426D0481DBDAE9A00E1994B /* sub-process.hpp */,
+				84CED9B81DBA4AA500457C00 /* datastructure.hpp */,
+				84CED9C31DBB4B3500457C00 /* utils.hpp */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		84CED9CB1DBBB0F100457C00 /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				84CED9CA1DBBB0CE00457C00 /* opencv_includes.txt */,
+				84CED9C91DBBB07800457C00 /* opencv_types.txt */,
+				84CED9C81DBBAF3300457C00 /* opencv_functions.txt */,
+				8426D04A1DBDB98000E1994B /* opencv_drawing.txt */,
+				8426D04B1DBDBA6600E1994B /* opencv_video.txt */,
+				8426D04C1DBDBCF200E1994B /* opencv_contour.txt */,
+			);
+			name = opencv;
+			sourceTree = "<group>";
+		};
+		84CED9CC1DBBB11B00457C00 /* c/c++ */ = {
+			isa = PBXGroup;
+			children = (
+				84CED9BA1DBA4B2900457C00 /* data structure.txt */,
+				84CED9BB1DBA515D00457C00 /* proper including.txt */,
+				8426D04D1DBDC06700E1994B /* vector.txt */,
+			);
+			name = "c/c++";
+			sourceTree = "<group>";
+		};
+		84CED9CD1DBBB12C00457C00 /* boost */ = {
+			isa = PBXGroup;
+			children = (
+				84CED9BE1DBA87C700457C00 /* installing boost lib.txt */,
+				84CED9CE1DBBB15E00457C00 /* boost_create directory.txt */,
+			);
+			name = boost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84380B1E1DB4AE9900002F0F /* master-motion-tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84380B261DB4AE9900002F0F /* Build configuration list for PBXNativeTarget "master-motion-tracking" */;
+			buildPhases = (
+				84380B1B1DB4AE9900002F0F /* Sources */,
+				84380B1C1DB4AE9900002F0F /* Frameworks */,
+				84380B1D1DB4AE9900002F0F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "master-motion-tracking";
+			productName = "master-motion-tracking";
+			productReference = 84380B1F1DB4AE9900002F0F /* master-motion-tracking */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84380B171DB4AE9900002F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "3-Ta-wan-Go";
+				TargetAttributes = {
+					84380B1E1DB4AE9900002F0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84380B1A1DB4AE9900002F0F /* Build configuration list for PBXProject "master-motion-tracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84380B161DB4AE9900002F0F;
+			productRefGroup = 84380B201DB4AE9900002F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84380B1E1DB4AE9900002F0F /* master-motion-tracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84380B1B1DB4AE9900002F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84380B231DB4AE9900002F0F /* main.cpp in Sources */,
+				84CED9B91DBA4AA500457C00 /* datastructure.cpp in Sources */,
+				8426D0491DBDAE9A00E1994B /* sub-process.cpp in Sources */,
+				84CED9B51DB89DDF00457C00 /* process.cpp in Sources */,
+				84CED9C41DBB4B3500457C00 /* utils.cpp in Sources */,
+				8416A61F1DD6E84A00B5055E /* control.cpp in Sources */,
+				84CED9C61DBB55BE00457C00 /* backupcode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84380B241DB4AE9900002F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84380B251DB4AE9900002F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84380B271DB4AE9900002F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv3/3.1.0_4/include,
+					/usr/local/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv3/3.1.0_4/lib,
+					/usr/local/lib,
+					/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+					"-lboost_filesystem",
+					"-lcurses",
+					"-lboost_system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84380B281DB4AE9900002F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv3/3.1.0_4/include,
+					/usr/local/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv3/3.1.0_4/lib,
+					/usr/local/lib,
+					/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+					"-lboost_filesystem",
+					"-lcurses",
+					"-lboost_system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84380B1A1DB4AE9900002F0F /* Build configuration list for PBXProject "master-motion-tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84380B241DB4AE9900002F0F /* Debug */,
+				84380B251DB4AE9900002F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84380B261DB4AE9900002F0F /* Build configuration list for PBXNativeTarget "master-motion-tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84380B271DB4AE9900002F0F /* Debug */,
+				84380B281DB4AE9900002F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84380B171DB4AE9900002F0F /* Project object */;
+}

@@ -1,0 +1,12 @@
+[ type flag ]
+ - CV_8U: 1-byte unsigned integer (unsigned char).
+ - CV_32S: 4-byte signed integer (int).
+ - CV_32F: 4-byte floating point (float).
+
+Rect ( int x , int y , int width , int height )
+
+Mat ( anotherMat )
+- get a gray pixel
+    - image.at <uchar> ( y , x )
+
+Size ( y , x )

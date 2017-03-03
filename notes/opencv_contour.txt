@@ -1,0 +1,13 @@
+
+findContours ( img , output_cont , ... )
+contourArea ( contour ) //return area in contour
+
+http://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html?highlight=pointpolygontest#pointpolygontest
+pointPolygonTest ( contour , point , measure_dist_or_not ) -> +1(inside) 0(on edge) -1outside)
+
+http://docs.opencv.org/trunk/d9/d8b/tutorial_py_contours_hierarchy.html
+hierachy [ contour_id ] [ attribute_id ]
+ - attr 0 -> next
+ - attr 1 -> prev
+ - attr 2 -> first_child
+ - attr 3 -> parent

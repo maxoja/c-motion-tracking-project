@@ -1,0 +1,26 @@
+[ OLD WAY ]
+http://stackoverflow.com/questions/5363542/complex-circular-dependency
+c++ circular depedencies
+
+You just need to use forward declaration correctly:
+
+Put all code in cpp files
+Put just class declaration in header file
+In header file:
+    Use forward declaration if you only use a pointer or a reference.
+    Otherwise you to include header file. (Do Not add unrequired includes)
+In cpp file
+    include all header files you require.
+
+what is direct declaration
+http://stackoverflow.com/questions/4926105/what-is-forward-declaration-in-c
+
+
+
+[ NEW WAY ]
+use preprocessor directives
+
+#ifndef sample_hpp
+#define sample_hpp
+//code of hpp
+#endif

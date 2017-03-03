@@ -1,0 +1,8 @@
+#include "boost/filesystem/hpp"
+
+using namespace boost;
+using namespace filesystem;
+
+path folder_dir = current_path() / "folder_name";
+
+create_directory(folder_dir);

@@ -1,0 +1,35 @@
+http://docs.opencv.org/2.4/modules/imgproc/doc/imgproc.html
+
+
+
+
+cvtColor ( input , output , COLOR_BGR2GRAY )
+
+
+
+
+GaussianBlur ( input , output , Size ksize , ??0 )
+
+
+
+
+threshold( from , to , min , amp , CV_THRESH_BINARY )
+
+
+
+
+Canny ( input , output , low , high )
+
+//http://docs.opencv.org/trunk/da/d22/tutorial_py_canny.html
+//if value is more than high -> surely edge
+//if value is more than low less than high -> may be edge based on connectivity
+//if value is less than low -> surely not edge
+
+
+
+
+findContours ( (will be changed) input , vector<vector<Point>> output , ??CV_RETR_LIST , ??CV_CHAIN_APPROXNONE );
+
+??? fitLine ( ???? )
+
+??? floodfill ( ???? )

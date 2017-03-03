@@ -1,0 +1,8 @@
+[ declare with size ]
+vector myvec(size);
+
+[ concatinate vector ]
+myvector.insert ( myvector.end() , anothervec.begin() , anothervec.end() );
+
+[ concatinate vector conversely ]
+myvector.insert ( myvector.end() , anothervec.rbegin() , anothervec.rend() );

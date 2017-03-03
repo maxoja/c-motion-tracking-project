@@ -1,0 +1,18 @@
+done // filter merging 2 large rect
+done // skip redundant scene
+done // window better arrangement
+done // tracking denied size change in largely scale
+done // playback control
+done // table mem leak
+done // remove while(1) loop
+done // fseek to clear buffer
+done // draw tracking func
+done // coloring tracking
+done // fix q not destroy windows
+done // funtionize progress bar
+done // filter useless tracking
+done // write file
+done // proper hiding windows
+
+mai tum la // resize option
+mai tum la // object must be appeared from edge
