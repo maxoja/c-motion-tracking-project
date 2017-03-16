@@ -1,0 +1,22 @@
+http://www.bogotobogo.com/OpenCV/opencv_3_tutorial_mat_object_image_matrix_image_container.php
+
+Mat is a class
+Mat object is normally a pointer.
+
+[ create 3 pointers of matrix ]
+Mat imageA,imageB,imageC;
+
+[ read an image from hard disk and put into imageA ]
+imageA = imread( ‘path’ , 1 );// >0 means load with 3 channel-color
+imageA = imread( ‘path’ , 0 );// 0 means load with grayscale
+imageA = imread( ‘path’ , -1 );// <0 means load with alpha channel-color
+
+[ copy matrix data / assign pointer head ]
+imageC ( imageA );		//copy data
+imageC = imageA.clone();	//copy data
+imageA.copyTo( imageC );	//copy data
+imageB = imageA ;		//copy reference
+
+Mat imageD ( imageA, Rect ( 10,10,150,150 ) ); // a rectangle
+Mat imageE = imageA ( Range:all() , Range(2,5) );
+

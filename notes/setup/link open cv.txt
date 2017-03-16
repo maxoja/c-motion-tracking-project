@@ -1,0 +1,15 @@
+[ link the opencv library to Xcode ]
+http://blogs.wcode.org/2014/11/howto-setup-xcode-6-1-to-work-with-opencv-libraries/
+
+build settings -> search paths 
+// path of your open cv
+// /usr/local/Cellar/opencv3/3.1.0_4/lib
+// /usr/local/Cellar/opencv3/3.1.0_4/include
+ -> header search paths : /usr/local/include 
+ -> library search paths : /usr/local/lib
+
+build settings -> linking
+ -> other linker flags : 
+-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_ts -lopencv_video -lopencv_videoio -lopencv_videostab
+
+//remove -lopencv_ts for temp fix

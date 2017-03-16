@@ -1,0 +1,34 @@
+
+    Zzzzz  |\      _,,,--,,_        +------------------------------------+
+           /,`.-'`'   ._  \-;;,_    |        OVERALL  INSTRUCTION        |
+          |,4-  ) )_   .;.(  `'-'   |     how to use this program :3     |
+         '---''(_/._)-'(_\_)        +------------------------------------+
+
+
+                  +---------------------------------------+
+                  |          OVERALL INSTRUCTION          |
+                  +---------------------------------------+
+                  |                                       |
+                  |       - to use this program -         |
+                  |                                       |
+                  | 1. pick a video                       |
+                  |                                       |
+                  | 2. choose object detection method     |
+                  |                                       |
+                  | 3. enter detection configurations     |
+                  |                                       |
+                  |                                       |
+                  | -> you can choose to go through       |
+                  |    tracking processes for fun or      |
+                  |    skip it to save time               |
+                  |                                       |
+                  | -> the tracking result will be saved  |
+                  |    in <result> folder locate next to  |
+                  |    this program ( - w -)              |
+                  |                                       |
+                  +---------------------------------------+
+
+                      Punch return key to continue . . .
+
+
+

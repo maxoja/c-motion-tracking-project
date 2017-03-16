@@ -1,0 +1,9 @@
+[ goto xcode’s preference ]
+
+[ select locations tab ]
+
+[ click Advance… ]
+
+[ change from unique to legacy ]
+
+++ your build destination changed to local Debug folder ++
